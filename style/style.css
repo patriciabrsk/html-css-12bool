@@ -1,0 +1,31 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
+body {
+    font-family: 'Circular Std', sans-serif;
+}
+
+.row {
+    margin-bottom: 1rem;
+}
+
+.blue {
+    height: 60px;
+    background-color: #006cfa;
+}
+
+.green {
+    height: 40px;
+    /* flex-basis: */
+    border: 1px solid #006cfa;
+    background-color: #00e164;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: white;
+}
