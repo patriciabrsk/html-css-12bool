@@ -34,7 +34,9 @@ body {
 
 p {
     color: white;
+    font-size: .8rem;
 }
+
 
 .blue-no-height {
     background-color: #006cfa;
