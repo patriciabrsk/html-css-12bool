@@ -14,8 +14,8 @@ body {
 }
 
 .green {
-    height: 40px;
-    /* flex-basis: */
+    width: 100%;
+    height: 100%;
     border: 1px solid #006cfa;
     background-color: #00e164;
 }
@@ -26,6 +26,16 @@ body {
     justify-content: center;
 }
 
+.box {
+    height: 40px;
+    margin: 10px;
+    width: calc(100% - 10px);
+}
+
 p {
     color: white;
+}
+
+.blue-no-height {
+    background-color: #006cfa;
 }
